@@ -3,27 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test - Informational Landing Page</title>
-    <meta name="description" content="Learn more about our innovative solutions">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Solutions - Enterprise Software Platform</title>
+    <meta name="description" content="Transform your business with our innovative enterprise software solutions">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-['Inter'] antialiased bg-white text-gray-900">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-gray-800">Logo</div>
+                <a href="https://ben941.github.io/test-2025-02-04-oncl2" class="text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors duration-300">SaaS Solutions</a>
+                
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Features</a>
-                    <a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Benefits</a>
-                    <a href="#faq" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a>
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-600 hover:text-gray-900">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
+
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl text-gray-600 hover:text-blue-600 transition-colors duration-300"></i>
                 </button>
+            </div>
+
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-6 right-6">
+                <div class="flex flex-col space-y-4 p-4">
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Features</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">About</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -32,36 +59,53 @@
         <section class="pt-32 pb-24 bg-gradient-to-b from-blue-50 to-white">
             <div class="container mx-auto px-6">
                 <div class="max-w-4xl mx-auto text-center">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">test</h1>
-                    <p class="text-xl md:text-2xl text-gray-600 mb-10">test</p>
-                    <a href="https://test.com" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Get Started</a>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">Transform Your Enterprise with Intelligent Solutions</h1>
+                    <p class="text-xl md:text-2xl text-gray-600 mb-10">Streamline operations, boost productivity, and drive growth with our comprehensive enterprise software platform.</p>
+                    <a href="https://test.com" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Start Free Trial</a>
                 </div>
             </div>
         </section>
 
         <section id="features" class="py-24 bg-white">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Features</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Powerful Features for Modern Enterprises</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-102">
                         <div class="text-blue-600 mb-4">
                             <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">test</h3>
-                        <p class="text-gray-600">Detailed feature description goes here.</p>
+                        <h3 class="text-xl font-semibold mb-4">Real-time Analytics</h3>
+                        <p class="text-gray-600">Get instant insights with our advanced analytics dashboard. Monitor KPIs, track performance, and make data-driven decisions in real-time.</p>
                     </div>
-                    <!-- Additional feature cards would go here -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-102">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Automated Workflows</h3>
+                        <p class="text-gray-600">Streamline processes with intelligent automation. Reduce manual tasks by up to 80% and eliminate human error with smart workflows.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-102">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Team Collaboration</h3>
+                        <p class="text-gray-600">Enable seamless collaboration across departments. Share resources, communicate efficiently, and boost team productivity by 40%.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="benefits" class="py-24 bg-gray-50">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Benefits</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Our Platform</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="flex items-start space-x-4">
+                    <div class="flex items-start space-x-4 hover:transform hover:scale-102 transition-transform duration-300">
                         <div class="flex-shrink-0 mt-1">
                             <div class="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center">
                                 <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -70,11 +114,73 @@
                             </div>
                         </div>
                         <div>
-                            <h3 class="text-xl font-semibold mb-2">test</h3>
-                            <p class="text-gray-600">Detailed benefit description goes here.</p>
+                            <h3 class="text-xl font-semibold mb-2">Increased Efficiency</h3>
+                            <p class="text-gray-600">Our platform reduces manual processes by 75%, saving your team valuable time and resources. Automate repetitive tasks and focus on strategic initiatives.</p>
                         </div>
                     </div>
-                    <!-- Additional benefit items would go here -->
+                    <div class="flex items-start space-x-4 hover:transform hover:scale-102 transition-transform duration-300">
+                        <div class="flex-shrink-0 mt-1">
+                            <div class="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center">
+                                <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Cost Savings</h3>
+                            <p class="text-gray-600">Customers report an average of 40% reduction in operational costs within the first year. Our platform pays for itself through improved efficiency and reduced overhead.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Clients Say</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-102">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Implementing this platform was a game-changer for our operations. We've seen a 45% increase in team productivity and significant cost savings. The automated workflows have eliminated countless hours of manual work."</p>
+                        <div>
+                            <p class="font-semibold">Sarah Johnson</p>
+                            <p class="text-sm text-gray-500">Operations Director, TechCorp</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-102">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"The analytics capabilities are outstanding. We now make data-driven decisions with confidence, and the real-time insights have helped us identify new opportunities for growth."</p>
+                        <div>
+                            <p class="font-semibold">Michael Chen</p>
+                            <p class="text-sm text-gray-500">CEO, DataMetrics Inc</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Us</h2>
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-gray-600 mb-8">Founded in 2018, our company emerged from a simple vision: to make enterprise software more intelligent, intuitive, and impactful. What started as a small team of innovative developers has grown into a global leader in business solutions, serving over 500 enterprises worldwide.</p>
+                    <p class="text-gray-600">Our mission is to empower organizations with cutting-edge technology that drives real business results. We believe in continuous innovation, exceptional customer service, and creating lasting partnerships with our clients. Our core values of transparency, excellence, and customer-first thinking guide everything we do.</p>
                 </div>
             </div>
         </section>
@@ -83,20 +189,38 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300">
-                        <h3 class="text-lg font-semibold mb-2">Common Question 1?</h3>
-                        <p class="text-gray-600">Detailed answer goes here.</p>
+                    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 hover:scale-102">
+                        <h3 class="text-lg font-semibold mb-2">How long does implementation typically take?</h3>
+                        <p class="text-gray-600">Most clients complete implementation within 2-4 weeks, depending on their specific needs and scale. Our dedicated support team guides you through every step of the process.</p>
                     </div>
-                    <!-- Additional FAQ items would go here -->
+                    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 hover:scale-102">
+                        <h3 class="text-lg font-semibold mb-2">What kind of support do you offer?</h3>
+                        <p class="text-gray-600">We provide 24/7 technical support via phone, email, and chat. Enterprise clients also receive a dedicated account manager and priority support response.</p>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 hover:scale-102">
+                        <h3 class="text-lg font-semibold mb-2">Is my data secure?</h3>
+                        <p class="text-gray-600">Yes, we maintain the highest security standards with SOC 2 Type II certification, end-to-end encryption, and regular security audits. Your data is protected by enterprise-grade security measures.</p>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 hover:scale-102">
+                        <h3 class="text-lg font-semibold mb-2">Can I integrate with existing systems?</h3>
+                        <p class="text-gray-600">Our platform offers extensive API support and pre-built integrations with popular business tools. Custom integrations can be developed to meet your specific needs.</p>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-all duration-300 hover:scale-102">
+                        <h3 class="text-lg font-semibold mb-2">What's included in the free trial?</h3>
+                        <p class="text-gray-600">Our 30-day free trial includes full access to all features, dedicated support, and implementation assistance. No credit card required to start.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="py-24 bg-blue-600 text-white">
+        <section id="contact" class="py-24 bg-gradient-to-r from-blue-600 to-blue-700 text-white">
             <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to get started?</h2>
-                <p class="text-xl mb-10">Contact us at test@test.com</p>
-                <a href="https://test.com" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Get Started Now</a>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Transform Your Business?</h2>
+                <p class="text-xl mb-10">Contact our team today and discover how we can help you achieve your goals.</p>
+                <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6">
+                    <a href="mailto:contact@example.com" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Contact Sales</a>
+                    <a href="https://test.com" class="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transform hover:scale-105 transition-all duration-300">Start Free Trial</a>
+                </div>
             </div>
         </section>
     </main>
@@ -107,8 +231,8 @@
                 <div>
                     <h3 class="text-white text-lg font-semibold mb-4">Company</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">About</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About</a></li>
+                        <li><a href="https://ben941.github.io/test-2025-02-04-oncl2/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
                         <li><a href="#" class="hover:text-white transition-colors duration-300">Careers</a></li>
                     </ul>
                 </div>
@@ -123,27 +247,65 @@
                 <div>
                     <h3 class="text-white text-lg font-semibold mb-4">Legal</h3>
                     <ul class="space-y-2">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://ben941.github.io/test-2025-02-04-oncl2/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://ben941.github.io/test-2025-02-04-oncl2/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
                         <li><a href="#" class="hover:text-white transition-colors duration-300">Cookie Policy</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-white text-lg font-semibold mb-4">Connect</h3>
-                    <p class="mb-4">test@test.com</p>
+                    <p class="mb-4">contact@example.com</p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
                             <span class="sr-only">Twitter</span>
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
+                            <i class="fab fa-twitter text-xl"></i>
                         </a>
-                        <!-- Additional social media icons would go here -->
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <span class="sr-only">LinkedIn</span>
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">
+                            <span class="sr-only">GitHub</span>
+                            <i class="fab fa-github text-xl"></i>
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="mt-12 pt-8 border-t border-gray-800 text-center">
-                <p>&copy; 2024 Company Name. All rights reserved.</p>
+                <p>&copy; 2024 SaaS Solutions. All rights reserved.</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
